@@ -1,0 +1,20 @@
+#canvas {
+    background: darkgreen;
+    display: none;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+#btn-start {
+    display: block;
+}
+
+#btn-toggle-sound {
+    display: none;
+}
+
+body {
+    background: #111;
+}

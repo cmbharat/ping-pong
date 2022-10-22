@@ -1,36 +1,21 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- meta tags are not necessary here, but having them always is a good practice -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title -->
-    <title>Ping Pong</title>
-    <!-- some css styles -->
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
 
-      body {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
-  </head>
-  <body>
+<head>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <title>Ping Pong Game</title>
+  <meta charset="UTF-8" />
+</head>
 
-    <!-- our "canvas" where we draw things-->
-    <canvas id="canvas" width="600" height="400">
-      
-    </canvas>
+<body>
+  <div id="app">
+    <button class="btn" id="btn-start" type="button" onClick="startGame()">
+      Start Game
+    </button>
+    <canvas id="canvas" width="640" height="320" />
+  </div>
 
-    <!-- link to script.js -->
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+  <script src="ping-pong.js"></script>
+</body>
+
 </html>
